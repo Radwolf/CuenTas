@@ -1,4 +1,4 @@
-package org.soft.rul.cuentas;
+package org.soft.rul.cuentas.ui.fragment;
 
 import android.os.Bundle;
 import android.support.v4.app.Fragment;

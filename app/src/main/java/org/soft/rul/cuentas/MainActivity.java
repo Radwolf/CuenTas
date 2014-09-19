@@ -198,7 +198,7 @@ public class MainActivity extends FragmentActivity implements ActionBar.TabListe
 //                        .replace(R.id.pager,
 //                                WebViewFragment.newInstance(),
 //                                WebViewFragment.TAG).commit();
-                Intent intent = new Intent(this, WebViewFragment.class);
+                Intent intent = new Intent(this, MovimientoActivity.class);
                 startActivity(intent);
                 break;
         }

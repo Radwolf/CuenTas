@@ -1,4 +1,4 @@
-package org.soft.rul.cuentas;
+package org.soft.rul.cuentas.ui.fragment;
 
 import android.app.ActionBar;
 import android.app.FragmentTransaction;
@@ -12,6 +12,8 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
+
+import org.soft.rul.cuentas.R;
 
 public class TabbedFragment extends FragmentActivity implements ActionBar.TabListener {
 

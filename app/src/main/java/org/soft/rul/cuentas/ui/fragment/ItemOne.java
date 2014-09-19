@@ -1,4 +1,4 @@
-package org.soft.rul.cuentas;
+package org.soft.rul.cuentas.ui.fragment;
 
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
@@ -9,6 +9,8 @@ import android.support.v4.view.ViewPager;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+
+import org.soft.rul.cuentas.R;
 
 public class ItemOne extends Fragment {
 

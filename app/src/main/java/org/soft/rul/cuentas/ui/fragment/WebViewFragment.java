@@ -1,4 +1,4 @@
-package org.soft.rul.cuentas;
+package org.soft.rul.cuentas.ui.fragment;
 
 import android.app.ActionBar;
 import android.app.Activity;
@@ -6,6 +6,8 @@ import android.os.Bundle;
 import android.support.v4.app.NavUtils;
 import android.view.MenuItem;
 import android.webkit.WebView;
+
+import org.soft.rul.cuentas.R;
 
 public class WebViewFragment extends Activity {
 

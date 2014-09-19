@@ -3,8 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="org.soft.rul.cuentas" >
 
-    <uses-sdk
-        tools:node="replace" />
+    <uses-sdk tools:node="replace" />
 
     <application
         android:allowBackup="true"
@@ -20,8 +19,18 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".WebViewFragment" android:label="WebView"
-            android:parentActivityName=".MainActivity">
+        <activity
+            android:name=".ui.fragment.WebViewFragment"
+            android:label="WebView"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
+            android:name=".MovimientoActivity"
+            android:label="@string/title_activity_movimiento"
+            android:parentActivityName=".MainActivity" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".MainActivity" />
